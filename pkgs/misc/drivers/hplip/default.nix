@@ -22,7 +22,7 @@ let
   };
 
   plugin = fetchurl {
-    url = "https://developers.hp.com/sites/default/files/${pname}-${version}-plugin.run";
+    url = "https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/${pname}-${version}-plugin.run";
     sha256 = "sha256-MSQCPnSXVLrXS1nPIIvlUx0xshbyU0OlpfLOghZMgvs=";
   };
 
